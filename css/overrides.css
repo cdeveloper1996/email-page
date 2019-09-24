@@ -1,0 +1,139 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container-header {
+    padding: 20px 32px;
+}
+
+.container-header-logo {
+    float: left;
+    width: 50%;
+    text-align: right;
+    font-size: 1.6em;
+}
+
+.container-header-info {
+    text-align: right;
+    font-size: 1.6em;
+    color: #777;
+    margin-left: 18%;
+    letter-spacing: -2px;
+    width: 32%;
+}
+
+.container-body {
+    background-image: url('../assets/bg blue.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 0% 2%;
+    position: relative;
+    height: 600px;
+}
+
+.header-logo {
+    background-image: url('../assets/Logo.png');
+    background-size: 40% 100%;
+    background-repeat: no-repeat;
+    height: 36px;
+    position: relative;
+    top: 16px;
+}
+
+.text-title {
+    color: #fff;
+    text-shadow: 2px 2px #000;
+    font-size: 4.8em;
+    font-weight: bold;
+}
+
+.left-panel {
+    padding: 4% 0%;
+    width: 60%;
+}
+
+.container-btn-schedule {
+    margin-top: 4%;
+}
+
+.btn-schedule {
+    background-color: rgb(255, 117, 0);
+    border: solid 4px #000;
+    padding: 2% 10%;
+    font-size: 1.5em;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.right-panel {
+    width: 38%;
+}
+
+.container-logo-save {
+    padding-top: 15%;
+    padding-left: 0%;
+}
+
+.logo-save {
+    background-image: url('../assets/Vector Smart Object.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+.container-logo-chain {
+    position: relative;
+    top: 475px;
+}
+
+.logo-chain {
+    background-image: url('../assets/chain copy.png');
+    background-size: 105% 50%;
+    background-repeat: no-repeat;
+    height: 178px;
+}
+
+.logo-bravo {
+    background-image: url('../assets/bravo_logo.png');
+    background-size: 17% 100%;
+    background-repeat: no-repeat;
+    height: 38px;
+}
+
+.starbucks-icon {
+    background-image: url('../assets/Vector Smart Object14.png');
+    background-size: 17% 100%;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.work-logo {
+    background-image: url('../assets/1 WAO.png');
+    background-size: 17% 100%;
+    background-repeat: no-repeat;
+    height: 25px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.capitalized {
+    text-transform: uppercase;
+}
